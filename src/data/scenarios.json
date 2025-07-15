@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "title": "The Urgent Email Trap",
+    "description": "Your phone buzzes with an email that makes your heart skip a beat: 'URGENT: Your VISA account shows suspicious activity from Nigeria! Your card will be FROZEN in 2 hours unless you verify your details immediately. Click here now!'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Panic and click the link right away - I can't have my card frozen!",
+        "isCorrect": false,
+        "explanation": "I get it, panic mode kicks in! But real banks never threaten to freeze accounts via email. They'd call you directly or send a letter."
+      },
+      {
+        "id": "b",
+        "text": "Take a breath and call the number on the back of my actual card",
+        "isCorrect": true,
+        "explanation": "Smart move! When in doubt, always use the official number on your card. Real emergencies can wait for a proper phone call."
+      },
+      {
+        "id": "c",
+        "text": "Forward the email to friends to warn them about this scam",
+        "isCorrect": false,
+        "explanation": "Good intentions, but forwarding suspicious emails can actually spread malware. Better to just delete it and warn people verbally."
+      }
+    ],
+    "difficulty": "easy",
+    "category": "Email Phishing"
+  },
+  {
+    "id": 2,
+    "title": "The Friendly Voice on the Phone",
+    "description": "A pleasant voice calls you: 'Hi there! This is Sarah from VISA Security. We've detected some weird charges on your account - someone tried to buy $800 worth of stuff in Vegas! Don't worry, we can fix this right now. I just need to confirm your card number and that little security code on the back.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "She sounds legit and helpful, so I'll give her the info",
+        "isCorrect": false,
+        "explanation": "Scammers are getting really good at sounding friendly and professional. Real VISA reps never ask for your full card details over the phone."
+      },
+      {
+        "id": "b",
+        "text": "Say 'Let me call you back' and hang up, then call VISA myself",
+        "isCorrect": true,
+        "explanation": "Perfect! Even if it seems rude, legitimate companies understand when you want to verify. Scammers will try to keep you on the line."
+      },
+      {
+        "id": "c",
+        "text": "Ask her for her employee ID and department to verify she's real",
+        "isCorrect": false,
+        "explanation": "Nice thinking, but scammers can make up convincing fake IDs and departments. The only safe move is to hang up and call back yourself."
+      }
+    ],
+    "difficulty": "medium",
+    "category": "Phone Scam"
+  },
+  {
+    "id": 3,
+    "title": "The Too-Good-To-Be-True Deal",
+    "description": "You're browsing online and find an incredible deal - a brand new iPhone for just $200! The website looks professional, but when you try to pay, it says: 'For security reasons, we only accept VISA gift card payments. Please purchase gift cards and email us the codes.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "It's such a good deal, I'll buy the gift cards and send the codes",
+        "isCorrect": false,
+        "explanation": "I know it's tempting when the price is so low! But gift card payments are the biggest red flag in online shopping. No legitimate business operates this way."
+      },
+      {
+        "id": "b",
+        "text": "This feels sketchy - I'll look for the same phone elsewhere",
+        "isCorrect": true,
+        "explanation": "Trust your gut! If something feels off, it probably is. Real deals exist, but they don't require weird payment methods."
+      },
+      {
+        "id": "c",
+        "text": "Contact them to ask why they can't accept regular card payments",
+        "isCorrect": false,
+        "explanation": "Engaging with scammers gives them a chance to convince you with more lies. Better to just walk away from suspicious sites."
+      }
+    ],
+    "difficulty": "medium",
+    "category": "Online Shopping"
+  },
+  {
+    "id": 4,
+    "title": "The Social Media Lottery Win",
+    "description": "Your Facebook messenger pings: 'CONGRATULATIONS! 🎉 You've been randomly selected to win a $1,000 VISA gift card in our anniversary celebration! You're one of only 10 winners today! Click this link and enter your card details to claim your prize before midnight!'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Awesome! I never win anything - let me claim this right away",
+        "isCorrect": false,
+        "explanation": "I wish it were real too! But think about it - why would they need your card details to GIVE you money? Real contests never work this way."
+      },
+      {
+        "id": "b",
+        "text": "Delete the message and maybe report it as spam",
+        "isCorrect": true,
+        "explanation": "Exactly right! These fake lottery messages are everywhere. Reporting them helps protect other people from falling for the same trick."
+      },
+      {
+        "id": "c",
+        "text": "Share it with my family so they can enter too",
+        "isCorrect": false,
+        "explanation": "Sweet of you to think of family, but sharing scam messages just helps them spread. Better to warn your family about these tricks instead."
+      }
+    ],
+    "difficulty": "easy",
+    "category": "Social Media"
+  },
+  {
+    "id": 5,
+    "title": "The Sketchy ATM Situation",
+    "description": "You need cash and find an ATM, but something looks weird. The card slot has a loose plastic piece hanging off it, and there's a tiny camera taped above the keypad that definitely wasn't there last week. A guy nearby says 'Oh that? The bank is just upgrading their security system.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "The guy seems to know what's up, so I'll use it quickly",
+        "isCorrect": false,
+        "explanation": "That guy might be working with the scammers! Card skimmers often have accomplices nearby to reassure victims that everything's normal."
+      },
+      {
+        "id": "b",
+        "text": "Nope, I'm finding a different ATM and calling the bank about this one",
+        "isCorrect": true,
+        "explanation": "Smart! Trust your instincts. Banks don't upgrade security with loose plastic pieces and random cameras. You might have just saved yourself and others."
+      },
+      {
+        "id": "c",
+        "text": "Try to remove the suspicious device to help other people",
+        "isCorrect": false,
+        "explanation": "You're trying to help, but don't touch it! Skimming devices can be dangerous, and you might destroy evidence. Just report it and stay away."
+      }
+    ],
+    "difficulty": "hard",
+    "category": "Physical Security"
+  },
+  {
+    "id": 6,
+    "title": "The Fake Support Website",
+    "description": "You Google 'VISA customer service' because you have a question about your bill. The first result looks official with the VISA logo and everything, but the URL is 'visa-support-help.com' instead of the usual visa.com. The site is asking you to enter your card details to 'verify your identity before we can help you.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "It showed up first in Google, so it must be legit",
+        "isCorrect": false,
+        "explanation": "Scammers actually pay Google to show their fake sites first! They're counting on people not checking the URL carefully."
+      },
+      {
+        "id": "b",
+        "text": "Check the URL more carefully and look for the real visa.com site",
+        "isCorrect": true,
+        "explanation": "Good eye! Always double-check URLs, especially when money is involved. The real VISA site will never ask for card details just to answer questions."
+      },
+      {
+        "id": "c",
+        "text": "Use the site but only enter partial card information",
+        "isCorrect": false,
+        "explanation": "Even partial info can be dangerous! Scammers can use bits and pieces to build a complete picture. When in doubt, don't enter anything."
+      }
+    ],
+    "difficulty": "medium",
+    "category": "Website Security"
+  },
+  {
+    "id": 7,
+    "title": "The Romance Scam Twist",
+    "description": "You've been chatting with someone online for a few weeks. They seem perfect - attractive, funny, and really into you. Today they message: 'Hey babe, I'm so embarrassed to ask, but I'm stuck at the airport and my card isn't working. Could you send me a VISA gift card so I can get home? I'll pay you back as soon as I see you next week!'",
+    "options": [
+      {
+        "id": "a",
+        "text": "They seem genuine and we've been talking for weeks - I'll help them out",
+        "isCorrect": false,
+        "explanation": "I know it feels real when you've been talking for a while, but this is a classic romance scam move. Real people in emergencies call family or use other resources."
+      },
+      {
+        "id": "b",
+        "text": "Suggest they call a family member or friend instead, and see how they react",
+        "isCorrect": true,
+        "explanation": "Perfect test! Legitimate people will understand and have other options. Scammers will get pushy or make excuses about why you're their only option."
+      },
+      {
+        "id": "c",
+        "text": "Offer to call the airport directly to help them figure out their situation",
+        "isCorrect": false,
+        "explanation": "You're being thoughtful, but this gives them a chance to create more elaborate lies. Better to just suggest they handle it through normal channels."
+      }
+    ],
+    "difficulty": "hard",
+    "category": "Romance Scam"
+  },
+  {
+    "id": 8,
+    "title": "The Fake Charity Emergency",
+    "description": "You get a call from someone claiming to represent a disaster relief charity: 'Hi, we're collecting emergency donations for hurricane victims. Every minute counts! We can process your VISA donation right now over the phone - just give me your card number and we'll send you a receipt later.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "It's for a good cause and people need help - I'll donate now",
+        "isCorrect": false,
+        "explanation": "Your heart's in the right place! But real charities don't pressure you for immediate phone donations. They're happy to wait for you to verify them first."
+      },
+      {
+        "id": "b",
+        "text": "Ask for their charity registration number and say I'll research them first",
+        "isCorrect": true,
+        "explanation": "Excellent approach! Legitimate charities are proud to share their registration info and understand when donors want to verify them."
+      },
+      {
+        "id": "c",
+        "text": "Offer to donate through their official website instead",
+        "isCorrect": false,
+        "explanation": "Good thinking, but scammers often have fake websites ready too. Better to independently research the charity first."
+      }
+    ],
+    "difficulty": "medium",
+    "category": "Charity Scam"
+  },
+  {
+    "id": 9,
+    "title": "The Tech Support Panic",
+    "description": "A pop-up suddenly covers your computer screen: 'WARNING! Your computer is infected with 47 viruses! Your credit card information may be compromised! Call Microsoft Support immediately: 1-800-HELP-NOW. Do not close this window or your files will be deleted!'",
+    "options": [
+      {
+        "id": "a",
+        "text": "This looks serious - I better call that number right away",
+        "isCorrect": false,
+        "explanation": "These pop-ups are designed to panic you into calling! Real virus warnings come from your actual antivirus software, not random pop-ups."
+      },
+      {
+        "id": "b",
+        "text": "Close the browser completely and run my real antivirus software",
+        "isCorrect": true,
+        "explanation": "Perfect! These are fake scare tactics. Your real antivirus software will tell you if there's actually a problem, not some random pop-up."
+      },
+      {
+        "id": "c",
+        "text": "Keep the window open but Google the phone number to check if it's real",
+        "isCorrect": false,
+        "explanation": "Good instinct to research, but don't keep the window open - it might have malware. Just close everything and scan with your real antivirus."
+      }
+    ],
+    "difficulty": "easy",
+    "category": "Tech Support Scam"
+  },
+  {
+    "id": 10,
+    "title": "The Fake Invoice Trap",
+    "description": "You receive an official-looking email with a VISA logo: 'Invoice #VIS-2024-8847: Your annual VISA Premium Protection service has been renewed for $299.99. If you did not authorize this purchase, please call our cancellation department immediately at 1-888-CANCEL-1.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "I definitely didn't sign up for this - I'll call to cancel right away",
+        "isCorrect": false,
+        "explanation": "That's exactly what they're hoping for! There's no such thing as 'VISA Premium Protection service.' This fake invoice is designed to trick you into calling."
+      },
+      {
+        "id": "b",
+        "text": "Check my actual VISA statement online to see if this charge is real",
+        "isCorrect": true,
+        "explanation": "Smart move! Always verify suspicious charges through your real account, not through links or numbers in emails. You'll see this charge doesn't exist."
+      },
+      {
+        "id": "c",
+        "text": "Reply to the email asking for more details about this service",
+        "isCorrect": false,
+        "explanation": "Replying just confirms your email is active and you're a potential target. Scammers will send you more convincing follow-up emails."
+      }
+    ],
+    "difficulty": "medium",
+    "category": "Fake Invoice"
+  },
+  {
+    "id": 11,
+    "title": "The Public WiFi Trap",
+    "description": "You're at a coffee shop and connect to the WiFi network 'CoffeeShop_Free_WiFi.' When you try to check your bank account, a page pops up saying 'For your security, please re-enter your VISA card details to verify your identity on this public network.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Makes sense for security - I'll enter my card info to verify",
+        "isCorrect": false,
+        "explanation": "This is a trap! Real banks never ask you to re-enter card details just because you're on public WiFi. Someone's intercepting your connection."
+      },
+      {
+        "id": "b",
+        "text": "Close everything and use my phone's data instead",
+        "isCorrect": true,
+        "explanation": "Exactly right! Public WiFi can be dangerous for banking. Your phone's data connection is much safer for sensitive stuff."
+      },
+      {
+        "id": "c",
+        "text": "Ask the coffee shop staff if this security check is normal",
+        "isCorrect": false,
+        "explanation": "The staff probably don't know about this scam, and asking wastes time. Better to just switch to a secure connection immediately."
+      }
+    ],
+    "difficulty": "hard",
+    "category": "WiFi Security"
+  },
+  {
+    "id": 12,
+    "title": "The Overpayment Scam",
+    "description": "You're selling your old laptop online for $500. A buyer contacts you: 'I'll pay $800 for your laptop - the extra $300 is for my shipping company to pick it up. I'll send you a check, just deposit it and send the $300 difference to my shipper via VISA gift cards.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Extra money for an easy sale? Sounds good to me!",
+        "isCorrect": false,
+        "explanation": "This is a classic overpayment scam! The check will bounce after you've already sent the gift cards, leaving you out $300 plus your laptop."
+      },
+      {
+        "id": "b",
+        "text": "This seems unnecessarily complicated - I'll find a different buyer",
+        "isCorrect": true,
+        "explanation": "Trust your instincts! Legitimate buyers don't overpay and ask for money back. Simple transactions are usually honest transactions."
+      },
+      {
+        "id": "c",
+        "text": "Wait for the check to fully clear before sending any gift cards",
+        "isCorrect": false,
+        "explanation": "Even waiting won't help - fake checks can seem to 'clear' for days before the bank discovers they're fraudulent. The whole setup is a scam."
+      }
+    ],
+    "difficulty": "hard",
+    "category": "Overpayment Scam"
+  }
+]
